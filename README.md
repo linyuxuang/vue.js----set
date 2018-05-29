@@ -102,7 +102,9 @@ vue.js中$set与数组更新
 
 
 
+         这里可以看出，Vue.set()不光能修改数据，还能添加数据，弥补了Vue数组变异方法的不足
 
+         Vue.set()在methods中也可以写成this.$set()
 
 
 
